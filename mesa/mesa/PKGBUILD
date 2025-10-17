@@ -100,6 +100,7 @@ source=(
   gamescope.patch                                                       # Gamescope Frame Limiter
   https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/34242.patch # Anti lag
   https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/37137.patch # Anti Lag Fix
+  https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/36346.patch # Disable anti-lag prerequesite
   https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/37509.patch # Disable anti-lag by default
 )
 validpgpkeys=(
@@ -160,6 +161,7 @@ sha256sums=('a370b4c549cbfbe646b319e34d73edb50ed883978f5e95133f282f0eae39ab52'
             'SKIP'
             '9c40bf44608a52c354c13508dec435fcd4ecccc6e34eaee9dbbba2ba0ce05ffc'
             '1e83a132618ebc2a2236779223ace94354f22b3372ce739ee6641e83f2d0f9e8'
+            'e40492e8ad6050c2d46fa2c6ea133d336504183ea0b7422c85f34d209a110be3'
             '2ee4a8dcba2ac1a162ac8b7d1751d9a363d0249df06897a4cf905ec9f59d17df'
             '0d6ac888f4401acab2f9a99cf2fd7d8a06ec2503ebf2807a8835eae6e06a4758'
             '67914ab451f3bfd2e69e5e9d2ef3858484e7074d63f204fd166ec391b54de21d'
@@ -193,6 +195,7 @@ b2sums=('5f9e89efb11977c8d86f92e705280af7dc136f4031d192571518c6fb9d73eb31c269f38
         'SKIP'
         '593511ab3028bfd00d74fc622aef8dc7cc79929f16e997228f52546aa69a3e3bf346b9702b4be4e45511e2bab8589f6fcb701062c90b2f5d5e7dd4b34d43e626'
         '04e5b824029b66f28a9dc97a44d1b879964d3ef44214c426977cfe59e9b0d71256c13373053a204fd8fc3f9dac1f1e33070caf561738eb2344eefd8c6f8e59d7'
+        'c4d23409d78b3597bfae8d45154fded43eabb29fc0e0c4c18159fa3ea63fd2d3f08aef6cdeeccab16291254e7c5f02b4cd707627cedf34b998c4099b3dedd14a'
         '7d10b4f79a31feb74d8064a91f148cbf714fcdd31714076731c099e11b1b39bc0dc7f8cff5d87e311264fa9cb4c93e03f3f77be1814bbd0cb8b66b989a89d313'
         'c65ad8486f84fb44fcd23967f19738e187fec8feb8973b54dd0a993ca3bf02b791fd3fa66831c92cf6cd325a9acd3303a7857d9c5fe8720ba737426f8703d502'
         '431439d31632d177aeb15f910b4f546efa76d54fc74fc8e140399dc5e54eca33fd606f11dbfb48fa83067c8474ee512e62751895d5948367b65ab08b984284e5'
